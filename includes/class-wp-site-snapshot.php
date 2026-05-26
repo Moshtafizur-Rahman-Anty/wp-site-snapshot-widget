@@ -1,7 +1,7 @@
 <?php 
 
 if(!defined('ABSPATH')) {
-    EXIT;
+    EXIT; //exit the file
 }
 
 
@@ -9,6 +9,7 @@ if(!class_exist('WP_Site_Snapshot')) {
 
     class WP_Site_Snapshot {
 
+        // constructor function
         public function __construct() {
             add_action("wp-dashboard_setup", [$this, "register_dashboard"]);
         }
@@ -18,7 +19,7 @@ if(!class_exist('WP_Site_Snapshot')) {
         }
 
         public function render_widget_html() {
-                
+            require_once WP_SITE_SNAPSHOT_PATH . 'views/widget-display.php';     
         }
 
     }
