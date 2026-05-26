@@ -16,7 +16,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
     $posts = wp_get_recent_posts(['numberposts=> 5', 'post_status' => "publish"]);
     foreach ($posts as $post) {
-            echo '<p>-' . esc_html($posts['post_title']) . '</p>';
+            echo '<p>-' . esc_html($post['post_title']) . '</p>';
     }
 ?>
 </div>
