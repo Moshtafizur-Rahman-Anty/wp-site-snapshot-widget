@@ -2,7 +2,9 @@
 
 > A custom WordPress admin dashboard widget demonstrating strict PHP 8.0+ OOP architecture and MVC separation of concerns.
 
-[![Watch the Video: Part One](https://img.shields.io/badge/YouTube-Watch_How_I_Built_This:_Part_One-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](YOUR_YOUTUBE_LINK_HERE)
+[![Watch the Video: Part One](https://img.shields.io/badge/YouTube-Watch_How_I_Built_This:_Part_One-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=U96XBzlxPuY)
+
+[![Watch the Video: Part Two](https://img.shields.io/badge/YouTube-Watch_How_I_Built_This:_Part_Two-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=GnpwGYptdmU&t)
 
 ## 🏗️ Development Approach
 When building this traditional backend plugin, I avoided legacy procedural PHP to ensure enterprise-level scalability and security:
