@@ -1,11 +1,11 @@
 <?php 
 
 if(!defined('ABSPATH')) {
-    EXIT; //exit the file
+    exit; //exit the file
 }
 
 
-if(!class_exist('WP_Site_Snapshot')) {
+if(!class_exists('WP_Site_Snapshot')) {
 
     class WP_Site_Snapshot {
 

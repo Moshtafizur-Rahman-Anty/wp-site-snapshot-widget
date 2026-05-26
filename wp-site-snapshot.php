@@ -24,5 +24,5 @@ function wp_site_snapshot_plugin(){
     new WP_Site_Snapshot();
 }
 
-
+//load teh plugin
 add_action('plugins_loaded', 'wp_site_snapshot_plugin'); 
