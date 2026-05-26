@@ -11,7 +11,7 @@ if(!class_exists('WP_Site_Snapshot')) {
 
         // constructor function
         public function __construct() {
-            add_action("wp-dashboard_setup", [$this, "register_dashboard"]);
+            add_action("wp_dashboard_setup", [$this, "register_dashboard"]);
         }
 
         public function register_dashboard() {
